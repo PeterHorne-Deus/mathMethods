@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Peter Horne-Deus
+ * mathMethods.java
+ * This program is an example of some of the math methods
+ * September 20, 2018
  */
 
 package mathmethods;
@@ -20,7 +21,7 @@ public class MathMethods {
         double myNumber=15.4;
         double pi = Math.PI;
         myNumberRounded = (double) Math.round(myNumber);
-        DecimalFormat x = new DecimalFormat("#.####");
+        DecimalFormat x = new DecimalFormat("$#.####");
         myNumber *=10; 
         myNumber +=5;
         myNumber /=10;
